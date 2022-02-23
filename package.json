@@ -1,0 +1,22 @@
+{
+  "name": "promethium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PGStoyanova20/Promethium.git"
+  },
+  "author": "Team Promethium",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PGStoyanova20/Promethium/issues"
+  },
+  "homepage": "https://github.com/PGStoyanova20/Promethium#readme",
+  "dependencies": {
+    "sass": "^1.49.8"
+  }
+}
