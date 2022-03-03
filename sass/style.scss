@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+$yellow: #FFFDCF;
+$brown: #D3C3A4;
+$green: #B6E5C6;
+$white-ter: #838383;
+$grey-darker: #515151;
+$white: hsl(0, 0%, 100%);
+
+$body-background-color: $yellow;
+
+body{
+    color: $grey-darker;
+}
+
+.title.is-2{
+    text-align: center;
+}
+$subtitle-color: $grey-darker;
+
+$navbar-background-color: $grey-darker;
+$navbar-item-color: $white;
+$navbar-item-hover-background-color: $white-ter;
+$navbar-item-hover-color: $white;
+
+
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/utilities/controls.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/grid/columns.sass";
