@@ -5,17 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="script/index.js"></script>
     <title>Home</title>
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar has-shadow">
         <div class="navbar-brand">
-            <h1 class="title navbar-item">Promethium</h1>
+            <h1 id="navbar-brandTitle" class="navbar-item">Promethium</h1>
+
+            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
         </div>
-        <div class="navbar-menu navbar-end">
-            <a href="index.html" class="navbar-item">Home</a>
-            <a href="html/aboutUs.html" class="navbar-item">About Us</a>
+
+        <div class="navbar-menu navbar-end" id="navMenu">
             <a href="html/feedback.html" class="navbar-item">Feedback</a>
+            <a href="html/aboutUs.html" class="navbar-item">About Us</a>
+            <a href="index.html" id= "active"class="navbar-item is-tab is-active">Home</a>
         </div>
     </nav>
 

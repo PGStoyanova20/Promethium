@@ -9,19 +9,30 @@ $white: hsl(0, 0%, 100%);
 
 $body-background-color: $yellow;
 
-body{
-    color: $grey-darker;
-}
-
 .title.is-2{
     text-align: center;
 }
 $subtitle-color: $grey-darker;
 
+#navbar-brandTitle{
+    font-size: 25px;
+}
+
+
+$navbar-box-shadow-size: 0 5px 8px 0;
+$navbar-box-shadow-color: $white-ter;
 $navbar-background-color: $grey-darker;
+
 $navbar-item-color: $white;
 $navbar-item-hover-background-color: $white-ter;
 $navbar-item-hover-color: $white;
+
+#active{
+    background-color: $yellow;
+    color: $grey-darker;
+}
+
+$navbar-tab-active-border-bottom-width: 0px;
 
 
 @import "../node_modules/bulma/sass/utilities/_all.sass";
