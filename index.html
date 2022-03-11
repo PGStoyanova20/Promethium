@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="script/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="script/script.js"></script>
     <title>Home</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
         <div class="navbar-brand">
             <h1 id="navbar-brandTitle" class="navbar-item">Promethium</h1>
 
-            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+            <a class="navbar-burger" data-target="navMenu" aria-expanded="false">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -27,20 +28,20 @@
         </div>
     </nav>
 
-    <h1 class = "title is-2">Choose a map</h1>
-    <div class="columns">
-        <div class="column">
-            <div class="bd-notification">
+    <h1 class = "title is-2 mt-2">Choose a map</h1>
+    
+    <div class= "columns is-mobile is-multiline is-centered">
+        <div id = "history" class="column is-narrow has-background-danger m-6">
                 <h2 class = "title">History</h2>
                 <p class = "subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
           </div>
-          <div class="column">
-            <div class="bd-notification">
+
+          <div id = "geography" class="column is-narrow has-background-success m-6">
                 <h2 class="title">Geography</h2>
                 <p class = "subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
           </div>
     </div>
+
+    
 </body>
 </html>

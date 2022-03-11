@@ -7,8 +7,6 @@ $white-ter: #838383;
 $grey-darker: #515151;
 $white: hsl(0, 0%, 100%);
 
-$body-background-color: $yellow;
-
 .title.is-2{
     text-align: center;
 }
@@ -27,18 +25,17 @@ $navbar-item-color: $white;
 $navbar-item-hover-background-color: $white-ter;
 $navbar-item-hover-color: $white;
 
-#active{
-    background-color: $yellow;
-    color: $grey-darker;
-}
-
 $navbar-tab-active-border-bottom-width: 0px;
 
+.navbar-burger:hover
+{
+    color: $white;
+    background-color: $white-ter;
+
+}
 
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
 @import "../node_modules/bulma/sass/utilities/controls.sass";
 @import "../node_modules/bulma/sass/elements/title.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
-@import "../node_modules/bulma/sass/grid/_all.sass";
-@import "../node_modules/bulma/sass/grid/columns.sass";
