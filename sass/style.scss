@@ -1,8 +1,5 @@
 @charset "utf-8";
 
-$yellow: #FFFDCF;
-$brown: #D3C3A4;
-$green: #B6E5C6;
 $white-ter: #838383;
 $grey-darker: #515151;
 $white: hsl(0, 0%, 100%);
@@ -16,7 +13,6 @@ $subtitle-color: $grey-darker;
     font-size: 25px;
 }
 
-
 $navbar-box-shadow-size: 0 5px 8px 0;
 $navbar-box-shadow-color: $white-ter;
 $navbar-background-color: $grey-darker;
@@ -27,11 +23,9 @@ $navbar-item-hover-color: $white;
 
 $navbar-tab-active-border-bottom-width: 0px;
 
-.navbar-burger:hover
-{
+.navbar-burger:hover{
     color: $white;
     background-color: $white-ter;
-
 }
 
 @import "../node_modules/bulma/sass/utilities/_all.sass";
@@ -39,3 +33,4 @@ $navbar-tab-active-border-bottom-width: 0px;
 @import "../node_modules/bulma/sass/utilities/controls.sass";
 @import "../node_modules/bulma/sass/elements/title.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/components/_all.sass";
