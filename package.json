@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/PGStoyanova20/Promethium#readme",
   "dependencies": {
-    "sass": "^1.49.8"
+    "bulma": "^0.9.3",
+    "sass": "^1.49.9"
   }
 }

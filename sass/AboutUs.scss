@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+$yellow: #FFFDCF;
+$grey-darker: #515151;
+$brown: #D3C3A4;
+$green: #B6E5C6;
+
+$success: $green;
+$danger: $brown;
+$body-background-color: $yellow;
+
+#active{
+    background-color: $yellow;
+    color: $grey-darker;
+}
+
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/utilities/controls.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
