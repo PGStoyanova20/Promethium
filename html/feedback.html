@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head class = "has-background">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/feedback.css">
+    <script src="../script/script.js"></script>
     <title>Feedback</title>
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar has-shadow">
         <div class="navbar-brand">
-            <h1 class="title">Promethium</h1>
+            <h1 id="navbar-brandTitle" class="navbar-item">Promethium</h1>
+    
+            <a class="navbar-burger" data-target="navMenu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
         </div>
         <div class="navbar-menu navbar-end">
-            <a href="feedback.html" class="navbar-item">Feedback</a>
+            <a href="feedback.html" id = "active" class="navbar-item">Feedback</a>
             <a href="aboutUs.html" class="navbar-item">About Us</a>
             <a href="../index.html" class="navbar-item">Home</a>
         </div>
     </nav>
+    <h1 class = "title is-2 mt-2">Have any ideas on how we can improve our website?</h1>
 
     <div class="box">
         <label for="fName" class="label">Full name</label>

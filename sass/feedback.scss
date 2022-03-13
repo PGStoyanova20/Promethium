@@ -1,2 +1,31 @@
 @charset "utf-8";
-@import "../bulma-0.9.3/bulma.sass";
+
+$yellow: #FFFDCF;
+$grey-darker: #515151;
+$brown: #D3C3A4;
+$green: #B6E5C6;
+
+$success: $green;
+$danger: $brown;
+$body-background-color: $green;
+
+
+#active{
+    background-color: $green;
+    color: $grey-darker;
+}
+
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/utilities/mixins.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/grid/columns.sass";
+@import "../node_modules/bulma/sass/helpers/_all.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/form/input-textarea.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/form/shared.sass";
+@import "../node_modules/bulma/sass/elements/box.sass";
+
+
