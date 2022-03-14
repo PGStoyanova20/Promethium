@@ -28,8 +28,8 @@
     </nav>
     <h1 class = "title is-2 mt-2">Have any ideas on how we can improve our website?</h1>
 
-    <div class="box">
-        <label for="fName" class="label">Full name</label>
+    <div class="box" id = "form">
+            <label for="fName" class="label">Full name</label>
         <input class="input" type="text" placeholder="Your name...">
         <br><br>
         <label for="email" class="label">E-mail</label>
@@ -38,7 +38,9 @@
         <label for="text" class="label">Message</label>
         <textarea class="textarea" placeholder="Your message..."></textarea>
         <br>
-        <button class="button">Submit</button>
+        <div class="buttons is-centered">
+        <button class="button is-focused" id = "buttonHover">Submit</button>
+        </div> 
       </div>
       <footer class="footer is-flex is-align-items-flex-start  is-flex-wrap-wrap ">
         <div class = "content has-text-centered is-align-items-center">

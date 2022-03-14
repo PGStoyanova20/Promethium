@@ -4,6 +4,8 @@ $yellow: #FFFDCF;
 $grey-darker: #515151;
 $brown: #D3C3A4;
 $green: #B6E5C6;
+$white: hsl(0, 0%, 100%);
+$white-ter: #838383;
 
 $success: $green;
 $danger: $brown;
@@ -13,6 +15,28 @@ $body-background-color: $green;
 #active{
     background-color: $green;
     color: $grey-darker;
+}
+
+$button-focus-color: $white;
+$button-background-color: $grey-darker; 
+$button-hover-color: $white;
+$button-focus-box-shadow-color: $white-ter;
+$button-border-width: 0px;
+$button-focus-box-shadow-size: 0px 2px 8px;
+
+#buttonHover:hover{
+
+    background-color: $white-ter;
+}
+
+$box-background-color: $yellow;
+
+#form{
+    max-width: 500px;
+    margin: auto;
+    border-radius: 30px;
+    $box-shadow: 29px;
+    
 }
 
 @import "../node_modules/bulma/sass/utilities/_all.sass";
@@ -27,5 +51,6 @@ $body-background-color: $green;
 @import "../node_modules/bulma/sass/elements/button.sass";
 @import "../node_modules/bulma/sass/form/shared.sass";
 @import "../node_modules/bulma/sass/elements/box.sass";
+
 
 
