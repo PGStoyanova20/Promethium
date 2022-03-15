@@ -14,7 +14,7 @@ $subtitle-color: $grey-darker;
 }
 
 $navbar-box-shadow-size: 0 5px 8px 0;
-$navbar-box-shadow-color: $white-ter;
+$navbar-box-shadow-color: rgba(80, 80, 80, 0.664);
 $navbar-background-color: $grey-darker;
 
 $navbar-item-color: $white;
@@ -28,6 +28,23 @@ $navbar-tab-active-border-bottom-width: 0px;
     background-color: $white-ter;
 }
 
+$footer-background-color: $grey-darker;
+$footer-padding: 1rem 1.5rem 1.4rem;
+
+footer{
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: -29px -1px 16px rgba(0, 0, 0, 0.45);
+}
+
+html,body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+body > footer {
+    margin-top: auto;
+}
+
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
 @import "../node_modules/bulma/sass/utilities/controls.sass";
@@ -37,6 +54,3 @@ $navbar-tab-active-border-bottom-width: 0px;
 @import "../node_modules/bulma/sass/layout/footer.sass";
 @import "../node_modules/bulma/sass/elements/image.sass";
 @import "../node_modules/bulma/sass/helpers/flexbox.sass";
-@import "../node_modules/bulma/sass/helpers/float.sass";
-
-
