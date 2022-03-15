@@ -21,6 +21,29 @@ $card-shadow: 0px 5px 16px;
 $card-shadow: $grey-darker;
 $card-radius: 16px;
 
+#Twitter{
+    background: url(../Images/twitterIcon.png);
+    background-size: cover;
+}
+#Instagram{
+    background: url(../Images/instagramIcon.png);
+    background-size: cover;
+}
+
+#GitHub{
+    background: url(../Images/gitHubIcon.png);
+    background-size: cover;
+}
+
+#YouTube{
+    background-image: url(../Images/youTubeIcon.png);
+}
+
+#Facebook{
+    background: url(../Images/facebookIcon.png);
+    background-size: cover;
+}
+
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
 @import "../node_modules/bulma/sass/elements/title.sass";

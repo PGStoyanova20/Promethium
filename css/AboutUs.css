@@ -3,6 +3,31 @@
   color: #515151;
 }
 
+#Twitter {
+  background: url(https://pngset.com/images/facebook-twitter-snapchat-instagram-twitter-logo-icon-twitter-logo-blue-symbol-trademark-animal-bird-transparent-png-2498409.png);
+  background-size: cover;
+}
+
+#Instagram {
+  background: url(https://pngset.com/images/logo-de-instagram-symbol-trademark-alphabet-text-transparent-png-1979704.png);
+  background-size: cover;
+}
+
+#GitHub {
+  background: url(https://pngset.com/images/circle-github-round-icon-background-github-icon-cat-pet-mammal-animal-transparent-png-2816361.png);
+  background-size: cover;
+}
+
+#YouTube {
+  background: url(https://pngset.com/images/youtube-logo-play-youtube-play-button-logo-youtube-youtube-app-label-text-baseball-cap-clothing-transparent-png-2039706.png);
+  background-size: cover;
+}
+
+#Facebook {
+  background: url(https://pngset.com/images/blue-facebook-facebook-facebook-logo-like-icon-first-aid-word-symbol-trademark-transparent-png-1691897.png);
+  background-size: cover;
+}
+
 /* Bulma Utilities */
 .is-unselectable {
   -webkit-touch-callout: none;
