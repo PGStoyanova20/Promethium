@@ -7,28 +7,17 @@
 
         <title>Geography map</title>
         
+        <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/geoMap.css">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-        
-        <style>
-            #map{
-                height: 450px;
-
-                margin-top: 60px;
-                margin-left: 220px;
-                margin-right: 220px;
-
-                position: relative;
-            }
-        </style>
 
     </head>
-<body>
-    <div class="is-flex is-justify-content-center">
-        <button class="button"><a href="../index.html">Back Home</a></button>
-        <h1>Geography Map</h1>
-        <button class="button">History map</button>
+<body>  
+    <div class="container is-inline-block">
+            <a class = "button is-focused m-4 is-inline-block" id = "buttonHover" id = "homeButton" href = "../index.html">Back Home</a>
+            <h1 class = "title is-2 m-3 has-text-centered is-inline-block">Geography Map</h1>
+            <a class = "button is-focused m-4 is-inline-block" id = "buttonHover" id = "hisMapButtomn" href = "hisMap.html">History map</a>
     </div>
 
     <div id = "map">Map</div>
@@ -37,19 +26,29 @@
     
     <br><br>
 
-    <div class= "columns is-mobile is-multiline is-centered">
-        <div class="box is-narrow">
-            <h2>Prohodna Cave</h2>
+    <div class = "columns is-centered">
+        <div class = "column box is-one-quarter is-narrow-tablet m-6">
+            <h2 class = "title is-4">Prohodna Cave</h2>
+            <hr>
             <p class = "subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="https://bulma.io/images/placeholders/128x128.png" alt="Krushuna Waterfalls" class = "image is-square is-paddingless is-fullwidth">
+            <a href="#" class = "button is-focused mt-3" id = "buttonHover">Click here for more information</a>
         </div>
-        <div class="box is-narrow">
-            <h2>Krushuna Waterfalls</h2>
+        <div class="column box is-one-quarter is-narrow-tablet m-6">
+            <h2 class = "title is-4">Krushuna Waterfalls</h2>
+            <hr>
             <p class = "subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="https://bulma.io/images/placeholders/128x128.png" alt="Krushuna Waterfalls" class = "image is-square is-paddingless is-fullwidth">
+            <a href="#" class = "button is-focused mt-3" id = "buttonHover">Click here for more information</a>
         </div>
-        <div class="box is-narrow">
-            <h2>The Stone Forest</h2>
+        <div class="column box is-one-quarter is-narrow-tablet m-6">
+            <h2 class = "title is-4">The Stone Forest</h2>
+            <hr>
             <p class = "subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="https://bulma.io/images/placeholders/128x128.png" alt="Krushuna Waterfalls" class = "image is-square is-paddingless is-fullwidth">
+            <a href="#" class = "button is-focused mt-3" id = "buttonHover">Click here for more information</a>
         </div>
+    </div>
 
         <footer class="footer">
             <div class = "content has-text-centered is-align-items-center">

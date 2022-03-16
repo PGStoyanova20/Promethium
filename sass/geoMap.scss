@@ -1,2 +1,54 @@
 @charset "utf-8";
-@import "../bulma-0.9.3/bulma/bulma.sass";
+
+$yellow: #FFFDCF;
+$grey-darker: #515151;
+$brown: #D3C3A4;
+$green: #B6E5C6;
+$white-ter: #838383;
+$white: hsl(0, 0%, 100%);
+
+$success: $green;
+$danger: $brown;
+$body-background-color: $green;
+
+$button-focus-color: $white;
+$button-background-color: $grey-darker; 
+$button-hover-color: $white;
+$button-focus-box-shadow-color: rgba(0, 0, 0, 0.45);
+$button-border-width: 0px;
+$button-focus-box-shadow-size: 0px 2px 8px;
+
+#buttonHover:hover{
+
+    background-color: $white-ter;
+}
+
+#map{
+    height: 450px;
+    
+    margin-top: 60px;
+    margin-left: 220px;
+    margin-right: 220px;
+
+    position: relative;
+
+    box-shadow: 0px 1px 16px rgba(0, 0, 0, 0.45);
+    border-radius: 16px;
+}
+
+$box-background-color: $brown;
+$box-shadow: 0px 5px 12px rgba(159, 148, 126, 0.45);
+
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/utilities/mixins.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/grid/columns.sass";
+@import "../node_modules/bulma/sass/helpers/_all.sass";
+@import "../node_modules/bulma/sass/helpers/spacing.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/helpers/flexbox.sass";
+@import "../node_modules/bulma/sass/helpers/other.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/box.sass";

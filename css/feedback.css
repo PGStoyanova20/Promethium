@@ -6873,7 +6873,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   color: white;
 }
 .button:focus:not(:active), .button.is-focused:not(:active) {
-  box-shadow: 0px 2px 8px #838383;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.45);
 }
 .button:active, .button.is-active {
   border-color: #4a4a4a;
