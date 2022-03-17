@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>History Map</title>
-</head>
-<body>
-    <h>History Map</h>
-    <p>lorem ipsum dolores.</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>History map</title>
+        
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+    </head>
+<body>  
+    <div class="container is-inline-block">
+            <a class = "button is-focused m-4 is-inline-block" id = "buttonHover" id = "homeButton" href = "../index.html">Back Home</a>
+            <h1 class = "title is-2 m-3 has-text-centered is-inline-block">History Map</h1>
+            <a class = "button is-focused m-4 is-inline-block" id = "buttonHover" id = "hisMapButtomn" href = "geoMap.html">Geography map</a>
+    </div>
+
+    <div id = "map">Map</div>
+
+    <script src = "../script/geoScript.js"></script>
+    
+    <br><br>
+
+    <div class = "columns is-centered">
+        <div class = "column box is-one-quarter is-narrow-tablet m-6">
+            <h2 class = "title is-4">Milnik</h2>
+            <hr>
+            <p class = "subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="https://bulma.io/images/placeholders/128x128.png" alt="Krushuna Waterfalls" class = "image is-square is-paddingless is-fullwidth">
+            <a href="#" class = "button is-focused mt-3" id = "buttonHover">Click here for more information</a>
+        </div>
+        <div class="column box is-one-quarter is-narrow-tablet m-6">
+            <h2 class = "title is-4">Veliko Tarnovo</h2>
+            <hr>
+            <p class = "subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="https://bulma.io/images/placeholders/128x128.png" alt="Krushuna Waterfalls" class = "image is-square is-paddingless is-fullwidth">
+            <a href="#" class = "button is-focused mt-3" id = "buttonHover">Click here for more information</a>
+        </div>
+        <div class="column box is-one-quarter is-narrow-tablet m-6">
+            <h2 class = "title is-4">Vidin</h2>
+            <hr>
+            <p class = "subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="https://bulma.io/images/placeholders/128x128.png" alt="Krushuna Waterfalls" class = "image is-square is-paddingless is-fullwidth">
+            <a href="#" class = "button is-focused mt-3" id = "buttonHover">Click here for more information</a>
+        </div>
+    </div>
+
+        <footer class="footer">
+            <div class = "content has-text-centered is-align-items-center">
+                <p class = "title is-4 has-text-white">Our socials:</p>
+            </div>
+        </div>
+
+        <figure class="is-flex is-justify-content-center">
+            <a href = "https://twitter.com/explore" target = "_blank"><img class = "image is-48x48 m-3" src = "https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/twitter-icon-18-256.png" alt = "twitterIcon" href = ""></a>
+            <a href = "https://www.instagram.com" target = "_blank"><img class = "image is-48x48 m-3" src = "https://www.edigitalagency.com.au/wp-content/uploads/new-instagram-logo-white-border-icon-png-large.png" alt = "instagramIcon"></a>
+            <a href = "https://github.com/PGStoyanova20/Promethium" target="_blank"><img class = "image is-48x48 m-3" src = "https://www.nicepng.com/png/full/52-520535_free-files-github-github-icon-png-white.png" alt = "gitHubIcon"></a>
+            <a href = "https://www.youtube.com" target = "_blank"><img class = "image is-48x48 m-3" src = "https://www.pngkit.com/png/full/42-425199_youtube-white-icon-social-media-icon-png-and.png" alt = "youTubeIcon"></a>
+            <a href = "https://www.facebook.com" target = "_blank"><img class = "image is-48x48 m-3" src = "https://www.pinclipart.com/picdir/big/150-1504080_facebook-white-facebook-white-icon-png-2018-clipart.png" alt = "facebookIcon"></a>
+        </figure>
+    </footer>
 </body>
 </html>
