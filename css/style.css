@@ -7,6 +7,12 @@
   font-size: 25px;
 }
 
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .navbar-burger:hover {
   color: white;
   background-color: #838383;
@@ -15,6 +21,9 @@
 footer {
   border-radius: 25px 25px 0px 0px;
   box-shadow: -29px -1px 16px rgba(0, 0, 0, 0.45);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 html, body {
