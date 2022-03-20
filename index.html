@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head class = "has-background">
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Adds logo in browser tab -->
     <link rel="icon" href="Images/logo.png">
+    
+    <!-- Links CSS style for navbar and footer -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Links the Home page CSS -->
     <link rel="stylesheet" href="css/index.css">
+
+    <!-- Script for navbar when the website is opened on smaller devices -->
     <script src="script/script.js"></script>
     <title>Home</title>
 </head>
+
 <body>
+
+    <!-- Navigation bar -->
     <nav class="navbar has-shadow">
         <div class="navbar-brand">
             <h1 id="navbar-brandTitle" class="navbar-item">Promethium</h1>
 
+            <!-- When the website is opened on smaller devices -->
             <a class="navbar-burger" data-target="navMenu" aria-expanded="false" >
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -29,29 +42,35 @@
         </div>
     </nav>
 
+    <!-- Title of Home page -->
     <h1 class = "title is-2 mt-2">Choose a map</h1>
     
+    <!-- Content of Home page -->
     <div class= "columns is-mobile is-multiline is-centered">
-        <div id = "history" class="column is-narrow has-background-danger is-two-fifths m-6">
-                <a href = "html/hisMap.html">
-                <h2 class = "title">History</h2>
-                <p class = "subtitle">In the History map you can see three of the capital cities of Bulgaria in the past</p>
-          </div>
 
-          
-            <div id = "geography" class="column is-narrow has-background-success is-two-fifths m-6" >
-                <a href = "html/geoMap.html">
-                <h2 class="title">Geography</h2>
-                <p class = "subtitle">In Geography map you can see three natural wonders in Bulgaria</p>
-                </a>
-            </div>
+        <!-- History section -->
+        <div id = "history" class="column is-narrow has-background-danger is-two-fifths m-6">
+            <a href = "html/hisMap.html">
+            <h2 class = "title">History</h2>
+            <p class = "subtitle">In the History map you can see three of the capital cities of Bulgaria in the past</p>
+        </div>
+
+        <!-- Geography section -->
+        <div id = "geography" class="column is-narrow has-background-success is-two-fifths m-6" >
+            <a href = "html/geoMap.html">
+            <h2 class="title">Geography</h2>
+            <p class = "subtitle">In Geography map you can see three natural wonders in Bulgaria</p>
+        </div>
           
     </div>
 
+    <!-- Footer structure -->
     <footer class="footer">
         <div class = "content has-text-centered is-align-items-center">
             <p class = "title is-4 has-text-white">Our socials:</p>
         </div>
+        
+        <!-- Links to all socials -->
         <figure class="is-flex is-justify-content-center">
             <a href = "https://twitter.com/explore" target = "_blank"><img class = "image is-48x48 m-3" src = "https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/twitter-icon-18-256.png" alt = "twitterIcon" href = ""></a>
             <a href = "https://www.instagram.com" target = "_blank"><img class = "image is-48x48 m-3" src = "https://www.edigitalagency.com.au/wp-content/uploads/new-instagram-logo-white-border-icon-png-large.png" alt = "instagramIcon"></a>
@@ -60,7 +79,6 @@
             <a href = "https://www.facebook.com" target = "_blank"><img class = "image is-48x48 m-3" src = "https://www.pinclipart.com/picdir/big/150-1504080_facebook-white-facebook-white-icon-png-2018-clipart.png" alt = "facebookIcon"></a>
         </figure>
     </footer>
-
-    
+ 
 </body>
 </html>

@@ -1,12 +1,17 @@
 @charset "UTF-8";
+/* Colors used */
+/* Additional text formatting */
+/* Title formatting */
 .title.is-2 {
   text-align: center;
 }
 
+/* Subtitle formatting */
 .subtitle {
   text-align: justify;
 }
 
+/* Navbar design changes */
 #navbar-brandTitle {
   font-size: 25px;
 }
@@ -16,6 +21,7 @@
   background-color: #838383;
 }
 
+/* Footer design changes */
 footer {
   border-radius: 25px 25px 0px 0px;
   box-shadow: -29px -1px 16px rgba(0, 0, 0, 0.45);
@@ -31,6 +37,7 @@ body > footer {
   margin-top: auto;
 }
 
+/* Imported bulma sass files for customizing */
 /* Bulma Utilities */
 .pagination-previous,
 .pagination-next,

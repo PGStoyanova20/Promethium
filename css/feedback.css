@@ -1,18 +1,23 @@
+/* Colors used */
+/* Active tab in navbar */
 #active {
   background-color: #B6E5C6;
   color: #515151;
 }
 
+/* Button design changes */
 #buttonHover:hover {
   background-color: #838383;
 }
 
+/* Form design */
 #form {
   width: 500px;
   margin: auto;
   border-radius: 30px;
 }
 
+/* Imported bulma sass files for customizing */
 /* Bulma Utilities */
 .button, .file-cta,
 .file-name, .select select, .textarea, .input {

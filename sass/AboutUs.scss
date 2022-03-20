@@ -1,26 +1,30 @@
 @charset "utf-8";
 
+/* Colors used */ 
 $yellow: #FFFDCF;
 $grey-darker: #515151;
 $brown: #D3C3A4;
 $green: #B6E5C6;
 $white: hsl(0, 0%, 100%);
-
 $success: $green;
 $danger: $brown;
-$body-background-color: $brown;
 $has-text-info: $white;
 
+$body-background-color: $brown;
+
+/* Active tab in navbar */
 #active{
     background-color: $brown;
     color: $grey-darker;
 }
 
+/* Card design changes */
 $card-background-color: $grey-darker;
 $card-shadow: 0px 5px 16px;
 $card-shadow: $grey-darker;
 $card-radius: 16px;
 
+/* Imported bulma sass files for customizing */
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
 @import "../node_modules/bulma/sass/elements/title.sass";

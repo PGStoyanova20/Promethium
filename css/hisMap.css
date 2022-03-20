@@ -1,7 +1,10 @@
+/* Colors used */
+/* Button design changes */
 #buttonHover:hover {
   background-color: #838383;
 }
 
+/* Map design */
 #map {
   height: 450px;
   margin-top: 60px;
@@ -12,13 +15,8 @@
   border-radius: 16px;
 }
 
-#footer {
-  height: auto;
-  width: 100vw;
-  background-attachment: fixed;
-  background-position: center;
-}
-
+/* Boxes design changes */
+/* Imported bulma sass files for customizing */
 /* Bulma Utilities */
 .button {
   -moz-appearance: none;

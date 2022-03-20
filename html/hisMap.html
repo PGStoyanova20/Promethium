@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Adds logo in browser tab -->
+    <link rel="icon" href="../Images/logo.png">
 
-        <title>History map</title>
-        
-        <link rel="icon" href="../Images/logo.png">
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/hisMap.css">
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
-        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <!-- Links CSS style for navbar and footer -->
+    <link rel="stylesheet" href="../css/style.css">
 
-    </head>
+    <!-- Links the History page CSS -->
+    <link rel="stylesheet" href="../css/hisMap.css">
+
+    <!-- Links for Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <title>History map</title>
+
+</head>
 <body>  
+
+    <!-- Navigation for returning to Home page and to Geography map -->
     <div class="container is-inline-block">
-            <a class = "button is-focused m-4 is-inline-block" id = "buttonHover" id = "homeButton" href = "../index.html">Back Home</a>
-            <h1 class = "title is-2 m-3 has-text-centered is-inline-block">History Map</h1>
-            <a class = "button is-focused m-4 is-inline-block" id = "buttonHover" id = "hisMapButtomn" href = "geoMap.html">Geography map</a>
+        <a class = "button is-focused m-4 is-inline-block" id = "buttonHover" id = "homeButton" href = "../index.html">Back Home</a>
+        <h1 class = "title is-2 m-3 has-text-centered is-inline-block">History Map</h1>
+        <a class = "button is-focused m-4 is-inline-block" id = "buttonHover" id = "hisMapButtomn" href = "geoMap.html">Geography map</a>
     </div>
 
+    <!-- History map -->
     <div id = "map">Map</div>
-
     <script src = "../script/hisScript.js"></script>
     
     <br><br>
 
+    <!-- Information boxes -->
     <div class = "columns is-centered">
+
+        <!-- Information for Melnik -->
         <div class = "column box is-one-quarter is-narrow-tablet m-6">
             <h2 class = "title is-4">Melnik</h2>
             <hr>
@@ -36,6 +47,8 @@
             <img src="https://drumivdumi.com/wp-content/uploads/2016/10/9zamyk_despot_slav_4286.jpg" alt="Melnik" class = "image is-square is-paddingless is-fullwidth">
             <a href="https://www.andrey-andreev.com/en/melnik-the-smallest-bulgarian-town/"  target = "_blank" class = "button is-focused mt-3" id = "buttonHover">Click here for more information</a>
         </div>
+
+        <!-- Information for Veliko Tarnovo -->
         <div class="column box is-one-quarter is-narrow-tablet m-6">
             <h2 class = "title is-4">Veliko Tarnovo</h2>
             <hr>
@@ -44,6 +57,8 @@
             <img src="https://drumivdumi.com/wp-content/uploads/2016/09/1carevec_3651.jpg" alt="Veliko Tarnovo" class = "image is-square is-paddingless is-fullwidth">
             <a href="https://www.veliko-tarnovo.bg/en/town/history-veliko-tarnovo/"  target = "_blank" class = "button is-focused mt-3" id = "buttonHover">Click here for more information</a>
         </div>
+
+        <!-- Information for Vidin -->
         <div class="column box is-one-quarter is-narrow-tablet m-6">
             <h2 class = "title is-4">Vidin</h2>
             <hr>
@@ -56,12 +71,14 @@
         </div>
     </div>
 
+        <!-- Footer structure -->
         <footer class="footer">
             <div class = "content has-text-centered is-align-items-center">
                 <p class = "title is-4 has-text-white">Our socials:</p>
             </div>
         </div>
 
+        <!-- Links to all socials -->
         <figure class="is-flex is-justify-content-center">
             <a href = "https://twitter.com/explore" target = "_blank"><img class = "image is-48x48 m-3" src = "https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/twitter-icon-18-256.png" alt = "twitterIcon" href = ""></a>
             <a href = "https://www.instagram.com" target = "_blank"><img class = "image is-48x48 m-3" src = "https://www.edigitalagency.com.au/wp-content/uploads/new-instagram-logo-white-border-icon-png-large.png" alt = "instagramIcon"></a>

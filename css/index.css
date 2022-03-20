@@ -1,21 +1,27 @@
+/* Colors used */
+/* Active tab in navbar */
 #active {
   background-color: #FFFDCF;
   color: #515151;
 }
 
+/* Small changes for columns */
 .column {
   height: 400px;
   border-radius: 15px;
 }
 
+/* Geography section */
 #geography {
   box-shadow: 0px 5px 12px rgba(90, 122, 101, 0.45);
 }
 
+/* History section */
 #history {
   box-shadow: 0px 5px 12px rgba(159, 148, 126, 0.45);
 }
 
+/* Imported bulma sass files for customizing */
 /* Bulma Utilities */
 .is-unselectable {
   -webkit-touch-callout: none;
