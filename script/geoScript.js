@@ -10,13 +10,13 @@ var map = L.map('map').setView([42.35, 26.19], 8);
     }).addTo(map);
 
     var marker = L.marker([43.227556, 27.706358]).addTo(map)
-        .bindPopup('<b>The Stone Forest</b><br />I am a popup.').openPopup();
+        .bindPopup('<b>The Stone Forest</b>').openPopup();
 
     var marker = L.marker([43.175, 24.073]).addTo(map)
-        .bindPopup('<b>Prohodna Cave</b><br />I am a popup.').openPopup();
+        .bindPopup('<b>Prohodna Cave</b>').openPopup();
         
     var marker = L.marker([43.243578, 25.033369]).addTo(map)
-        .bindPopup('<b>Krushuna Waterfalls</b><br />I am a popup.').openPopup();
+        .bindPopup('<b>Krushuna Waterfalls</b>').openPopup();
 
     
 

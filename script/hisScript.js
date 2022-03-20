@@ -9,14 +9,14 @@ var map = L.map('map').setView([42.35, 26.19], 8);
         zoomOffset: -1
     }).addTo(map);
 
-    var marker = L.marker([43.227556, 27.706358]).addTo(map)
-        .bindPopup('<b>The Stone Forest</b><br />I am a popup.').openPopup();
+    var marker = L.marker([41.524605, 23.391510]).addTo(map)
+        .bindPopup('<b>Melnik</b>').openPopup();
 
-    var marker = L.marker([43.175, 24.073]).addTo(map)
-        .bindPopup('<b>Prohodna Cave</b><br />I am a popup.').openPopup();
+    var marker = L.marker([43.075672, 25.617151]).addTo(map)
+        .bindPopup('<b>Veliko Tarnovo</b>').openPopup();
         
-    var marker = L.marker([43.243578, 25.033369]).addTo(map)
-        .bindPopup('<b>Krushuna Waterfalls</b><br />I am a popup.').openPopup();
+    var marker = L.marker([43.99, 22.8725]).addTo(map)
+        .bindPopup('<b>Vidin</b>').openPopup();
 
     
 
