@@ -1,4 +1,8 @@
-# Promethium
+<p  align="center">
+<img height="300" width="300" src="https://github.com/PGStoyanova20/Promethium/blob/main/Images/logo.png" alt="Logo"/>
+</p>
+
+<h1 align="center"> Promethium </h1>
 
 <hr>
 
