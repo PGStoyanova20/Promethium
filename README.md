@@ -18,8 +18,6 @@
 
 - [📘Presentation and Documentations](#documentations)
 
-- [⚡Acknowledgements](#acknowledgements)
-
 ## Description <a name="description"></a>
 
 This is a History and Georgaphy site. In the home page there are two boxes - History and Geography map. By chosing each one you open a map and you can see information about three places. There are "About us" and "Feedback" pages in the navbar too. You can see our socials in the footer that is positioned at the bottom of each page.
@@ -63,10 +61,7 @@ Here is all the information for everithing used to create this project. You can 
 
 ## Presentation and documentation <a name = "documentations"></a>
   
-- [Click here](https://github.com/PGStoyanova/Promethium-Docs)
-
-
-## Acknowledgements <a name = "acknowledgements"></a>
+- [Click here](https://github.com/PGStoyanova20/Promethium/tree/main/Docs)
 
 
 
