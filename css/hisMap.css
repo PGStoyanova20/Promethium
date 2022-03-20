@@ -12,6 +12,13 @@
   border-radius: 16px;
 }
 
+#footer {
+  height: auto;
+  width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 /* Bulma Utilities */
 .button {
   -moz-appearance: none;

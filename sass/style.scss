@@ -9,6 +9,10 @@ $white: hsl(0, 0%, 100%);
 }
 $subtitle-color: $grey-darker;
 
+.subtitle{
+    text-align:justify;
+}
+
 #navbar-brandTitle{
     font-size: 25px;
 }
