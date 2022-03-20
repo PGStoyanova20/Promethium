@@ -10,15 +10,15 @@
 
 - [✍ Description](#description)
 
-- [🏁	Getting started ](#gettingStarted)
+- [🏁 Getting started](#gettingStarted)
 
-- [✨Built using ](#builtbyusing)
+- [✨Built using](#builtbyusing)
 
 - [🙆Authors](#authors)
 
 - [📘Presentation and Documentations](#documentations)
 
-- [⚡Acknowledgements](acknowledgements)
+- [⚡Acknowledgements](#acknowledgements)
 
 ## Description <a name="description"></a>
 
@@ -46,6 +46,12 @@ Here is all the information for everithing used to create this project. You can 
 - [💎Word](https://tinyurl.com/mt43tywd) - word processing software used to create the documentation 
   
 - [📙PowePoint](https://www.microsoft.com/bg-bg/microsoft-365/powerpoint) - presentation program used to create the presentation
+
+- [🤖Bulma](https://bulma.io/documentation/form/)
+  
+- [🤖SASS](https://sass-lang.com/)
+  
+- [🤖leaflet](https://leafletjs.com/SlavaUkraini/download.html)  
   
 ## Authors <a name = "authors"></a>
   All the people who did take part in this project
@@ -57,18 +63,14 @@ Here is all the information for everithing used to create this project. You can 
 
 ## Presentation and documentation <a name = "documentations"></a>
   
-  
+- [Click here](https://github.com/PGStoyanova/Promethium-Docs)
+
+
 ## Acknowledgements <a name = "acknowledgements"></a>
-  
-- [🤖Bulma](https://bulma.io/documentation/form/)
-  
-- [🤖SASS](https://sass-lang.com/)
-  
-- [🤖leaflet](https://leafletjs.com/SlavaUkraini/download.html)  
-  
-  
-  
-  
+
+
+
+
   
   
   
